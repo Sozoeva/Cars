@@ -42,5 +42,20 @@ text-decoration: none;
 .header__button {
     background-color: #EE8313;
     padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.intro__content {
+    display: flex;
+}
+
+.intro__img {
+    position: relative;
+}
+
+.intro__img {
+    position: absolute;
 }
 
