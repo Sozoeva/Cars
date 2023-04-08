@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    margin-top: 40px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  width: 100%;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  gap: 72px;
+}
+
+.nav {
+    display: flex;
+    gap: 48px;
+}
+
+.link {
+text-decoration: none;
+}
+
+.header__button {
+    background-color: #EE8313;
+    padding: 12px 24px;
+}
